@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
-    --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    primary: rgba(201, 68, 23, 0.6);
+    light: rgb(194, 184, 184);
+    greyish: rgba(190, 35, 24, 0.8);
 }
 
 html, body {
@@ -11,16 +11,17 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(128, 134, 144);
 }
 
 a {
-    color: var(--light) !important;
+    color: var(--greyish) !important;
 }
 
 .custom-resume {
     background-color:var(--light);
 }
+
 
 .custom-resume > div {
     min-height: 30rem;
@@ -42,7 +43,7 @@ a {
     border: 1px solid var(--primary);
     border-radius: 50%;
     background-color: var(--primary);
-    color: var(--light);
+    color: var(--primary);
 }
 
 .custom-profile > * {
@@ -54,11 +55,11 @@ a {
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgba(0, 8, 12, 0.5);
 }
 
 .custom-city {
-    color: var(--greyish);
+    color: var(--light);
 }
 
 .custom-title {
